@@ -1030,12 +1030,12 @@
         <h2 data-anim="1"><span class="live-dot"></span><span class="c-yellow">Демо</span> &mdash; Claude Code в действии</h2>
         <div data-anim-scale="1" style="margin-top:28px;padding:40px 44px;background:var(--overlay);border-radius:18px;border:1px solid var(--highlight-med);position:relative;overflow:hidden;box-shadow:var(--shadow-md);">
             <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--red),var(--yellow),transparent);opacity:0.4;"></div>
-            <p data-anim="2" style="font-size:28px;line-height:1.5;">Сейчас я открою терминал и покажу, как Claude Code изменит <span class="c-cyan">эту презентацию</span> прямо на ваших глазах.</p>
+            <p data-anim="2" style="font-size:28px;line-height:1.5;">Сейчас я открою терминал и покажу, как <span class="c-cyan">создать что-то простое</span> с нуля за пару минут.</p>
             <div style="margin-top:28px;">
                 <ul>
-                    <li data-anim="3">Попросим добавить новый слайд</li>
-                    <li data-anim="4">Изменить стиль или цвет</li>
-                    <li data-anim="5">Всё в реальном времени</li>
+                    <li data-anim="3">Опишем задачу обычным текстом</li>
+                    <li data-anim="4">Claude напишет код и запустит</li>
+                    <li data-anim="5">Готовый результат &mdash; в браузере</li>
                 </ul>
             </div>
         </div>
@@ -1362,14 +1362,12 @@
                 </ul>
             </div>
             <div>
-                <div data-anim-scale="1" class="code-block" style="font-size:14px;line-height:1.75;">
-                    <span class="comment"># voice-input — менюбар-приложение</span><br>
-                    <span class="comment"># Python + Whisper.cpp + Apple Silicon</span><br><br>
-                    <span class="c-yellow">Стек:</span><br>
-                    <span class="cmd">&nbsp;&nbsp;pywhispercpp</span> <span class="comment"># транскрипция</span><br>
-                    <span class="cmd">&nbsp;&nbsp;sounddevice</span> <span class="comment">&nbsp;# запись аудио</span><br>
-                    <span class="cmd">&nbsp;&nbsp;rumps</span> <span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# менюбар macOS</span><br>
-                    <span class="cmd">&nbsp;&nbsp;pynput</span> <span class="comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# хоткеи</span><br><br>
+                <div data-anim-scale="1" style="text-align:center;margin-bottom:20px;">
+                    <img src="images/voice-input-icon.png" style="width:128px;height:128px;border-radius:28px;box-shadow:var(--shadow-lg);" alt="Wacika app icon">
+                </div>
+                <div data-anim-scale="2" class="code-block" style="font-size:14px;line-height:1.75;">
+                    <span class="comment"># Wacika — менюбар-приложение</span><br>
+                    <span class="comment"># Swift + WhisperKit + Apple Silicon</span><br><br>
                     <span class="c-yellow">Модель:</span> <span class="c-green">whisper large-v3</span><br>
                     <span class="c-yellow">Сеть:</span> <span class="c-green">не нужна</span><br>
                     <span class="c-yellow">Подписка:</span> <span class="c-green">$0</span>
@@ -1467,8 +1465,17 @@
         <div class="thread-msg" data-anim="6">Вопрос больше не в том, <span>КАК</span> сделать &mdash; а в том, <span>ЗАЧЕМ</span></div>
     </div>
 
-    <!-- ==================== 25: Q&A ==================== -->
+    <!-- ==================== 25: JUST TRY ==================== -->
     <div class="slide section-divider" data-slide="35">
+        <div class="ambient-glow" style="width:500px;height:500px;background:var(--yellow);top:20%;right:20%;"></div>
+        <div class="ambient-glow" style="width:400px;height:400px;background:var(--green);bottom:25%;left:25%;"></div>
+        <p class="subtitle" data-anim-blur="1" style="margin-bottom:16px;">Можно бесконечно слушать лекции и проходить курсы. Но лучшее, что вы можете сделать &mdash;</p>
+        <h1 data-anim-blur="2" style="font-size:80px;letter-spacing:-3px;line-height:1.05;">Просто взять<br>и <span class="c-yellow">попробовать</span></h1>
+        <div class="thread-msg" data-anim-blur="2" style="text-align:center;border-left:none;border-top:2px solid rgba(234,157,52,0.3);padding:16px 0 0;bottom:48px;">Не завтра, не после курса &mdash; <span>сегодня</span></div>
+    </div>
+
+    <!-- ==================== 26: Q&A ==================== -->
+    <div class="slide section-divider" data-slide="36">
         <div class="ambient-glow" style="width:600px;height:600px;background:var(--blue);top:20%;left:25%;"></div>
         <div class="ambient-glow" style="width:400px;height:400px;background:var(--purple);bottom:20%;right:20%;"></div>
         <h1 data-anim-blur="1"><span class="c-blue">Вопросы?</span><span class="cursor"></span></h1>
